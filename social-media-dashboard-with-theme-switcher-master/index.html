@@ -1,136 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | [Challenge Name Here]</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <link rel="stylesheet" href="./assets/style.css" />
 
-  <section class="container">
-<div class="main">
-<ul class="mainTitle">
-  <li>Social Media Dashboard</li>
-  <li>Total Followers: 23,004</li>
-</ul>
+    <title>Frontend Mentor | Social Media Dashboard</title>
 
-<ul class="button">
-  <li class="darkmode">Dark Mode</li>
-  <li class="darkmode">Dark Mode</li>
-  <label class="switch"> id="switch-theme"/>
-    <span class="slider round"></span>
-  </label>
-</ul>
-</div>
-</section>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
 
-<span class="bg-cinca"></span>
+  <body>
+    <section class="container">
+      <div class="main">
+        <ul class="mainTitle">
+          <li>Social Media Dashboard</li>
+          <li>Total Followers: 23,004</li>
+        </ul>
 
-<section class="container">
-<div class="wrapCards">
-<div class="card card1">
-<ul>
-<li class="info01">@nathanf</li>
-<li class="info02">1987</li>
-<li class="info03">Followers</li>
-<li class="info04">12 Today</li>
-</ul>
-</div>
-<div class="card card3">
-<ul>
-<li class="info01">@nathanf</li>
-<li class="info02">1044</li>
-<li class="info03">Followers</li>
-<li class="info04">99 Today</li>
-</ul>
-</div>
-<div class="card card4">
-<ul>
-<li class="info01"> Nathan F.</li>
-<li class="info02">8239</li>
-<li class="info03">Subscribes</li>
-<li class="info04">144 today</li>
-</ul>
-</div>
-</div>
-</section>
+        <ul class="button">
+          <li class="darkmode">Dark Mode</li>
+          <label class="switch">
+            <input type="checkbox" id="switch-theme" />
+            <span class="slider round"></span>
+          </label>
+        </ul>
+      </div>
+    </section>
 
+    <span class="bg-cinza"></span>
 
+    <section class="container">
+      <div class="wrapCards">
+        <div class="card card1">
+          <ul>
+            
+            <li class="info01">@nathanf</li>
+            <li class="info02">1987</li>
+            <li class="info03">Followers</li>
+            <li class="info04">12 Today</li>
+          </ul>
+        </div>
 
+        <div class="card card2">
+          <ul>
+           
+            <li class="info01">@nathanf</li>
+            <li class="info02">1044</li>
+            <li class="info03">Followers</li>
+            <li class="info04">99 Today</li>
+          </ul>
+        </div>
+        <div class="card card3">
+          <ul>
+          
+            <li class="info01">@nathanf</li>
+            <li class="info02">11.1</li>
+            <li class="info03">Followers</li>
+            <li class="info04">1099 Today</li>
+          </ul>
+        </div>
+        <div class="card card4">
+          <ul>
+            
+            <li class="info01">Nathan F.</li>
+            <li class="info02">8239</li>
+            <li class="info03">Subscribes</li>
+            <li class="info04">144 today</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-  <section class="container">
-    <h2>Overview - Today</h2>
+    <section class="container">
+      <h2>Overview - Today</h2>
 
-<div class="miniCard">
-<ul class="miniCard miniCard1">
-  <li class="minf01">Page Views</li>
-  <li class="minf02">87</li>
-  <span class ="percent">3%</span>
-  </ul>
+      <div class="miniCards">
+        <ul class="miniCard miniCard1">
+           <li class="infomini01">Page Views</li>
+          <li class="infomini02">87</li>
+          <span class="percent">3%</span>
+        </ul>
 
-<ul class="miniCard miniCard2">
-  <li class="minf01">Likes</li>
-  <li class="minf02">52</li>
-  <span class ="percent">2%</span>
-  </ul>
+        <ul class="miniCard miniCard2">
+          <li class="infomini01">Likes</li>
+          <li class="infomini02">52</li>
+          <span class="percent">2%</span>
+        </ul>
 
-<ul class="miniCard miniCard3">
-  <li class="minf01">Likes</li>
-  <li class="minf02">5462</li>
-  <span class ="percent">2257%</span>
-  </ul>
+        <ul class="miniCard miniCard3">
+          <li class="infomini01">Likes</li>
+          <li class="infomini02">5462</li>
+          <span class="percent">2257%</span>
+        </ul>
 
-<ul class="miniCard miniCard4">
-  <li class="minf01">Profile Views</li>
-  <li class="minf02">52k</li>
-  <span class ="percent">1375%</span>
-  </ul>
+        <ul class="miniCard miniCard4">
+          <li class="infomini01">Profile Views</li>
+          <li class="infomini02">52k</li>
+          <span class="percent">1375%</span>
+        </ul>
 
-<ul class="miniCard miniCard5">
-  <li class="minf01">Retweets</li>
-  <li class="minf02">117</li>
-  <span class ="percent">303%</span>
-  </ul>
+        <ul class="miniCard miniCard5">
+        <li class="infomini01">Retweets</li>
+          <li class="infomini02">117</li>
+          <span class="percent">303%</span>
+        </ul>
 
-<ul class="miniCard miniCard6">
-  <li class="minf01">Likes</li>
-  <li class="minf02">507</li>
-  <span class ="percent">553%</span>
-  </ul>
+        <ul class="miniCard miniCard6">
+           <li class="infomini01">Likes</li>
+          <li class="infomini02">507</li>
+          <span class="percent">553%</span>
+        </ul>
 
-<ul class="miniCard miniCard7">
-  <li class="minf01">Likes</li>
-  <li class="minf02">107</li>
-  <span class ="percent">19%</span>
-  </ul>
+        <ul class="miniCard miniCard7">
+          <li class="infomini01">Likes</li>
+          <li class="infomini02">107</li>
+          <span class="percent">19%</span>
+        </ul>
 
-<ul class="miniCard miniCard7">
-  <li class="minf01">Likes</li>
-  <li class="minf02">107</li>
-  <span class ="percent">19%</span>
-  </ul>
-<ul class="miniCard miniCard8">
-  <li class="minf01">Total Views</li>
-  <li class="minf02">1407</li>
-  <span class ="percent">12%</span>
-  </ul>
-  </div>
-</section>
+        <ul class="miniCard miniCard8">
+          <li class="infomini01">Total Views</li>
+          <li class="infomini02">1407</li>
+          <span class="percent">12%</span>
+        </ul>
+      </div>
+    </section>
 
-
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> 
+    <script type="text/javascript" src="./assets/main.js"></script>
+  </body>
 </html>
