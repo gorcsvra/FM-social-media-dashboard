@@ -1,3 +1,5 @@
+/*TODO: az ikonokat a minicardokon kijavítani, egy sorba rendezni a szöveget a százalékkal, a főcímeket a kártyákkal egy sorba rendezni;*/
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -138,7 +140,7 @@ body {
   --bg-card: hsl(227, 47%, 96%);
   --bg-card-hover: hsl(225, 16%, 90%);
   --text-black: hsl(230, 17%, 14%);
-  --text-semi-black: (228, 12%, 44%);
+  --text-semi-black: hsl(228, 34%, 66%);
   --green: hsl(163, 72%, 41%);
   --facebook: hsl(208, 92%, 53%);
   --twitter: hsl(203, 89%, 53%);
@@ -442,6 +444,7 @@ background-size: cover;
 .infomini01 {
   font-size: 12px;
   margin-bottom: 20px;
+  color: var(--text-semi-black);
 }
 
 
@@ -449,16 +452,18 @@ background-size: cover;
   font-weight: 700;
   font-size: 28px;
   margin-bottom: 10px;
+  color: var(--text-black);
 }
 .infomini01 {
   position: relative;
+  display: inline-block;
  }
 
 .infomini01::after {
 content: "";
-background-image:url(../images/icon-fa);
+background-image:url(../images/icon-facebook.svg);
 background-size: cover;
-display: inline-block;
+
 width: 16px;
 position: absolute;
 right: 25px;
@@ -470,7 +475,7 @@ right: 25px;
   content: "";
   font-size: 12px;
   color: var(--verde);
-  background-image: url(./././../../../../);
+  background-image: url(../images/icon-up.svg);
   display: inline-block;
   width: 8px;
   height: 4px;
@@ -511,6 +516,14 @@ right: 25px;
 .miniCard7 .percent,
 .miniCard8 .percent {
   color: var(--youTube);
+}
+.miniCard1 .percent,
+.miniCard3 .percent,
+.miniCard4 .percent,
+.miniCard5 .percent,
+.miniCard6 .percent
+{
+  color: var(--green);
 }
 
 @media (max-width:466px) {
